@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sacabollos Quilmes</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- NAVBAR -->
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="#tienda">Tienda</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                        <a href="https://www.instagram.com/professional.dent.repair.miami/" target="_blank"> <img class="instagram" src="./img/instagram.png" alt="logo ig"></a>
+                        <p class="ver-carrito" id="verCarrito">🛒 <span id="cantidadCarrito" class="cantidad-carrito">
+                            </span></p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO IMAGE -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <h1>SACABOLLOS QUILMES</h1>
+                <p>Sacabollos, Tratamientos Ceramicos y Acrilicos, Productos para tu vehiculo</p>
+
+            </div>
+
+        </section>
+
+    </header>
+
+
+    <main id="tienda">
+
+        <div class="titulos">
+            <h2>Tienda</h2>
+            <p>Echa un vistazo a nuestros productos</p>
+        </div>
+
+        <!-- TIENDA  -->
+
+        <div id="shopContent" class="shop-content"></div>
+
+        <!-- MODAL -->
+
+        <div id="modalContainer" class="modal-container"></div>
+    </main>
+
+    <footer class="fondo" id="contacto">
+
+        <div class="titulos">
+            <h2>Contacto</h2>
+            <p>Trabajemos juntos</p>
+        </div>
+
+        <!-- FORMULARIO-->
+
+        <div class="formYmapa container">
+
+            <form class="col-md-7">
+                <div class="col-md-4">
+                    <label class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="..." required>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="..." required>
+                </div>
+                <div class="col-md-4">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Consulta</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Sobre</option>
+                        <option>Sacabollos</option>
+                        <option>Tratamiento Ceramico</option>
+                        <option>Tratamiento Acrilico</option>
+                        <option>Pulido de Opticas</option>
+                        <option>Productos de la tienda</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <button>
+                        <div class="svg-wrapper-1">
+                            <div class="svg-wrapper">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path fill="currentColor"
+                                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <span>Enviar</span>
+                    </button>
+                </div>
+            </form>
+
+            <!-- MAPA GOOGLE-->
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.1649923324317!2d-58.24427124878447!3d-34.75143637274079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32ee6a2e67aab%3A0xa100ac1ff7e10f2e!2sCaracas%204840%2C%20Ezpeleta%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1669746628783!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+        <!-- FOOTER VIDEOS -->
+        <div class="container my-5">
+
+            <div class="text-center text-white" style="background-color: #caced1;">
+                <!-- Grid container -->
+                <div class="container p-4">
+                    <!-- Section: Images -->
+                    <section class="">
+                        <div class="row">
+                            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                                <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <video class="w-100" src="./img/bollo.mp4" autoplay loop muted></video>
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                                <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <video class="w-100" src="./img/astonpulido.mp4" autoplay loop muted> </video>
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                                <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <video class="w-100" src="./img/teslabollo.mp4" autoplay muted loop></video>
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+                                <div class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                    data-ripple-color="light">
+                                    <video class="w-100" src="./img/pulido.mp4" muted loop autoplay> </video>
+                                    <a href="#!">
+                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.2);"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Section: Images -->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2022 Copyright:
+                    <a class="text-white" href="https://www.instagram.com/professional.dent.repair.miami/">Sacabollos Quilmes</a>
+                </div>
+                <!-- Copyright -->
+            </div>
+
+        </div>
+        <!-- End of .container -->
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="products.js"></script>
+    <script src="index.js"></script>
+    <script src="carrito.js"></script>
+</body>
+
+</html>
